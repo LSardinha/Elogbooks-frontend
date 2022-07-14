@@ -1,0 +1,14 @@
+.add-job-button {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 0.5rem;
+  letter-spacing: 0.02857em;
+  background-color: #0075ff !important;
+  color: #fff !important;
+
+  &:hover {
+    background-color: #0075ffe6 !important;
+  }
+}

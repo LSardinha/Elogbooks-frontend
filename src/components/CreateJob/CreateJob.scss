@@ -1,0 +1,107 @@
+.form-container {
+  margin-bottom: 5px;
+
+  &__jobs-form {
+    display: flex;  
+    flex-direction: column;
+  }
+
+  &__job-summary-input{
+    margin: auto !important;
+    padding-bottom: 5px;
+    width: 30%;
+  }
+  &__job-description-input{
+    margin: auto !important;
+    width: 30%;
+  }
+  &__job-property-input{
+    margin: auto !important;
+    width: 30%;
+  }
+
+  &__datetime {
+    margin: 5px 0px 0px 0px;
+    width: 50%;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  
+  div:last-child {
+    margin-left: auto;
+  }
+}
+
+.add-job-buttons {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 0.5rem;
+  letter-spacing: 0.02857em;
+
+  &__text {
+    padding: 6px 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  &__add {
+    background-color: #0075ff !important;
+    color: #fff !important;
+
+    &:hover {
+      background-color: #0075ffe6 !important;
+    }
+  }
+
+  &__submit {
+    background-color: #0075ff !important;
+    color: #fff !important;
+    &:hover {
+      background-color: #0075ffe6 !important;
+    }
+  }
+
+  &__cancel {
+    background-color: #7A7B97 !important;
+    color: #fff !important;
+    margin-right: 10px !important;
+
+    &:hover {
+      background-color: #7A7B97e6 !important;
+    }
+  }
+
+  &__delete {
+    background-color: #ce0f21 !important;
+    color: #fff !important;
+
+    &:hover {
+      background-color: #ce0f21e6 !important;
+    }
+  }
+
+  &__release {
+    background-color: #fff !important;
+    color: #7A7B97 !important;
+    position: relative !important;
+    border: 1px solid #7A7B97;
+    padding: 4px 6px !important;
+
+    &:hover {
+      background-color: #7A7B97 !important;
+      color: #fff !important;
+      .products-table {
+        &__releases-link {
+          color: #fff !important;
+        }
+      }
+      
+    }
+  }
+}

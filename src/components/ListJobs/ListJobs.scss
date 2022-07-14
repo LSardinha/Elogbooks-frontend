@@ -1,0 +1,40 @@
+.jobs-table {
+  margin: auto;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  min-width: 650px;
+  caption-side: bottom;
+  border-color: grey;
+
+  tr {
+    border-bottom: 1px 'grey';
+  }
+}
+
+.job-buttons {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 16px;
+  border-radius: 0.5rem;
+  letter-spacing: 0.02857em;
+
+  &__add {
+    background-color: #0075ff !important;
+    color: #fff !important;
+
+    &:hover {
+      background-color: #0075ffe6 !important;
+    }
+  }
+
+  &__submit {
+    background-color: #0075ff !important;
+    color: #fff !important;
+    &:hover {
+      background-color: #0075ffe6 !important;
+    }
+  }
+}
